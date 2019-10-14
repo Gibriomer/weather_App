@@ -1,0 +1,18 @@
+@import './node_modules/bootstrap/scss/bootstrap';
+
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 6em;
+    height: 100vh;
+    background: #bfbdf1;
+}
+
+
+@media screen and(max-width: 600px) {
+    body {
+        font-size: 0.8em;
+    }
+}
